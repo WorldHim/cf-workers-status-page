@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: oneindex
-    name: worldhim-oneindex.vercel.app
+    name: OneIndex
     description: 'OneIndex'
     url: 'https://worldhim-oneindex.vercel.app/'
     method: GET
@@ -34,7 +34,7 @@ monitors:
     linkable: true 
 
   - id: onemanager
-    name: onemanager.worldhim.repl.co
+    name: OneManager
     description: 'OneManager'
     url: 'https://onemanager.worldhim.repl.co/'
     method: GET
