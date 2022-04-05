@@ -15,8 +15,8 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: worldhim-github-io # unique identifier
-    name: worldhim.github.io
+  - id: gh-pages # unique identifier
+    name: Github Pages
     description: 'Github Pages' # default=empty
     url: 'https://worldhim.github.io/' # URL to fetch
     method: GET # default=GET
@@ -37,6 +37,15 @@ monitors:
     name: OneManager
     description: 'OneManager'
     url: 'https://onemanager.worldhim.repl.co/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false 
+    linkable: true 
+    
+  - id: docs
+    name: Docs
+    description: 'Powered by Docsify'
+    url: 'https://docs-worldhim.vercel.app/'
     method: GET
     expectStatus: 200
     followRedirect: false 
