@@ -27,7 +27,7 @@ monitors:
   - id: oneindex
     name: OneIndex
     description: 'OneIndex'
-    url: 'https://worldhim-oneindex.vercel.app/'
+    url: 'https://oneindex-worldhim.vercel.app/'
     method: GET
     expectStatus: 200
     followRedirct: false 
