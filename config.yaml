@@ -12,7 +12,7 @@ settings:
   monitorLabelNoData: '无数据'
   dayInHistogramNoData: '无数据'
   dayInHistogramOperational: '正常'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' 次运行异常' # xx incident(s) recorded
 
 monitors:
   - id: gh-pages # unique identifier
